@@ -1,0 +1,74 @@
+@font-face {
+    font-family: Ger;
+    src: url(Geruduk-8MnXz.otf);
+    }
+@font-face {
+  font-family: Matcha ;
+  src: url(Matcha-EaLge.ttf);
+}
+@font-face {
+  font-family: Moral;
+  src: url(MoralistJameson-X3lj9.ttf);
+}
+
+
+
+body {
+  margin: 0;
+  /*background-image: url(background.png);*/
+  /*background-size: cover;
+  background-repeat: no-repeat;*/
+  background-color: rgb(232, 169, 169);
+  /*background-blend-mode: darken;
+  background-size: 100% 580px;*/
+  padding-bottom: 100%;
+  border: 18px solid black;
+
+}
+
+.pages {
+  font-size: 42pt;
+  font-family: Matcha;
+  text-align: left; 
+  margin: 0;
+  padding-left: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: rgba(141, 50, 50, 0.653);
+  border-bottom: solid 5px;
+}  
+
+a:hover {
+  color: aliceblue;
+}
+
+.pages a.active {
+  border-bottom: 1px solid #555;
+}
+
+a { text-decoration: none;
+    color: black; 
+    text-align: left;
+    padding: 1px;
+    
+}
+
+section {
+  padding-left: 20px;
+  margin: 0;
+  font-family: Ger;
+  font-size: 24pt;
+  
+  
+  
+}
+
+p {
+    padding-left: 20px;
+    font-family: Ger;
+    font-size: 36pt;
+    
+    
+   
+    
+}
